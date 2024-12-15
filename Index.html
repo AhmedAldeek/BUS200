@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Packages</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white-100">
+    <!-- Header -->
+    <header class="d-flex align-items-center py-3 mb-4 border-bottom w-100">
+        <!-- Small Image Placeholder -->
+        <div class="me-3">
+            <img src="logo.png" alt="Logo" class="img-fluid w-25">
+        </div>
+    
+        <!-- Title Placeholder -->
+        <div>
+            <h1 class="text-5xl font-bold text-green-500">TourSA</h1>
+        </div>
+      
+        <!-- Navigation Links -->
+        <ul class="nav mb-0 w-50 justify-content-center align-items-center">
+            <li class="mr-6"><a href="about-us.html" class="nav-link px-2 text-green-500">About Us</a></li>
+            <li class="mr-6"><a href="about-saudi-arabia.html" class="nav-link px-2 text-green-500">About Saudi Arabia</a></li>
+            <li class="mr-6"><a href="partners.html" class="nav-link px-2 text-green-500">Partners</a></li>
+        </ul>
+    </header>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      
+        <!-- Carousel Inner (images and captions) -->
+        <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+                <img src="https://makkah-madinah.accor.com/wp-content/uploads/2024/08/makkah-view.jpg" class="d-block w-100 h-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-5xl" >Mecca</h1>
+                    
+                </div>
+            </div>
+            <!-- Second Slide -->
+            <div class="carousel-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/56772e1b0e4c117c4c64cf47/7e49bbc9-32d5-4a70-ac2f-02b62647bf17/Maraya.jpeg" class="d-block w-100 h-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-5xl">AlUla, Riyadh</h1>
+                </div>
+            </div>
+            <!-- Third Slide -->
+            <div class="carousel-item">
+                <img src="https://www.listmag.com/_next/image?url=https%3A%2F%2Fwebcms.listmag.com%2Flistmag%2Fuploads%2Fimages%2F2024%2F09%2F23%2F2161784.jpg&w=3840&q=75" class="d-block w-100 h-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-5xl">Jeddah Beach</h1>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-10">
+        <div class="container">
+            <h2 class="text-3xl font-semibold text-center mb-6">Explore by Category</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white shadow-lg p-5 rounded-lg text-center">
+                        <h3 class="text-xl font-bold mb-3">Religious</h3>
+                        <p>Explore spiritual and religious destinations worldwide.</p>
+                        <a href="religious-packages.html" class="btn btn-primary mt-3">View Packages</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white shadow-lg p-5 rounded-lg text-center">
+                        <h3 class="text-xl font-bold mb-3">Historical</h3>
+                        <p>Discover historical sites and ancient wonders.</p>
+                        <a href="historical-packages.html" class="btn btn-primary mt-3">View Packages</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white shadow-lg p-5 rounded-lg text-center">
+                        <h3 class="text-xl font-bold mb-3">Cities</h3>
+                        <p>Explore vibrant cities and rich cultural heritage.</p>
+                        <a href="city-packages.html" class="btn btn-primary mt-3">View Packages</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white shadow-lg p-5 rounded-lg text-center">
+                        <h3 class="text-xl font-bold mb-3">Beaches</h3>
+                        <p>Relax and unwind on stunning beaches worldwide.</p>
+                        <a href="beach-packages.html" class="btn btn-primary mt-3">View Packages</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white shadow-lg p-5 rounded-lg text-center">
+                        <h3 class="text-xl font-bold mb-3">Desert Adventures</h3>
+                        <p>Experience thrilling adventures in desert landscapes.</p>
+                        <a href="desert-packages.html" class="btn btn-primary mt-3">View Packages</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Packages Section -->
+    <section id="featured" class="py-10 bg-gray-50">
+        <div class="container">
+            <h2 class="text-3xl font-semibold text-center mb-6">Featured Packages</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="bg-white shadow-lg rounded-lg p-5">
+                        <h3 class="text-xl font-bold mb-3">Mecca and Madina</h3>
+                        <p>5 days and 4 nights</p>
+                        <p class="text-primary font-bold">6800 SAR</p>
+                        <a href="booking.html?package=Mecca%20and%20Madina&price=6800" class="btn btn-success mt-3">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="bg-white shadow-lg rounded-lg p-5">
+                        <h3 class="text-xl font-bold mb-3">Desert Safari Tour</h3>
+                        <p>4 days and 3 nights ocean of sands called ”Sa’ad</p>
+                        <p class="text-primary font-bold">2500 SAR</p>
+                        <a href="booking.html?package=Desert%20Safari%20Tour&price=2500" class="btn btn-success mt-3">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flights Section -->
+    <section id="flights" class="py-10">
+        <div class="container">
+            <h2 class="text-3xl font-semibold text-center mb-6">Book Your Flight</h2>
+            <div class="bg-white shadow-lg rounded-lg p-5 max-w-md mx-auto">
+                <form>
+                    <div class="mb-4">
+                        <label for="destination" class="form-label">Destination</label>
+                        <input type="text" id="destination" class="form-control" placeholder="Enter destination">
+                    </div>
+                    <div class="mb-4">
+                        <label for="departure" class="form-label">Departure Date</label>
+                        <input type="date" id="departure" class="form-control">
+                    </div>
+                    <div class="mb-4">
+                        <label for="return" class="form-label">Return Date</label>
+                        <input type="date" id="return" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full">Search Flights</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 TourSA. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
